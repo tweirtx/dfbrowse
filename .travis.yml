@@ -11,3 +11,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: tweirtx/dfbrowse
+    branch: master
+
