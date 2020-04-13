@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests necessary\"",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . dfbrowse && zip dfbrowse.zip dfbrowse-*"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/tweirtx/dfbrowse#readme",
   "devDependencies": {
-    "electron": "^8.2.1"
+    "electron": "^8.2.1",
+    "electron-packager": "^14.2.1"
   }
 }
