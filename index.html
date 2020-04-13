@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dfbrowse</title>
+    <script type="text/javascript">
+        function navigate() {
+            const url = document.getElementById("urlentry").value;
+            document.getElementById("urlform").action = url;
+            window.location.assign(url);
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to dfbrowse!</h1>
+    <br>
+    <h3>I know this looks like no browser you've used before, but it's designed to get us the tools we need when LISD won't.</h3>
+    <br>
+    <h5>To get started, enter a URL in the box and press submit.</h5>
+    <form onsubmit="navigate()" id="urlform">
+        <label>
+            <input type="text" id="urlentry" value="https://classroom.google.com">
+        </label>
+        <input type="submit">
+    </form>
+    <h3>User guide:</h3>
+    <h4>Alt-LeftArrow takes you back now, y'all</h4>
+    <h4>Alt-RightArrow takes you forward</h4>
+    <h4>CTRL-R reloads your current page</h4>
+    <h5>Credit goes to the Electron team for making this possible, and Travis Weir for putting this together.</h5>
+</body>
+</html>

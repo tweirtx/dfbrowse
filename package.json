@@ -1,0 +1,23 @@
+{
+  "name": "dfbrowse",
+  "version": "1.0.0",
+  "description": "A browser for getting around the web limitations of school computers for digital forensics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests necessary\"",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tweirtx/dfbrowse.git"
+  },
+  "author": "Travis Weir",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tweirtx/dfbrowse/issues"
+  },
+  "homepage": "https://github.com/tweirtx/dfbrowse#readme",
+  "devDependencies": {
+    "electron": "^8.2.1"
+  }
+}
