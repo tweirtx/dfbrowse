@@ -2,6 +2,7 @@ os: windows
 language: node_js
 node_js: lts/*
 script: npm run build
+after_success: npm run winci
 deploy:
   provider: releases
   api_key:

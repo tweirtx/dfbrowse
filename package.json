@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"No tests necessary\"",
     "start": "electron .",
-    "build": "electron-packager . dfbrowse && zip dfbrowse.zip dfbrowse-*"
+    "build": "electron-packager . dfbrowse",
+    "winci": "7z a dfbrowse.zip dfbrowse-win32-x64"
   },
   "repository": {
     "type": "git",
