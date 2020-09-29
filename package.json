@@ -21,6 +21,6 @@
   "homepage": "https://github.com/tweirtx/dfbrowse#readme",
   "devDependencies": {
     "electron": "^8.2.4",
-    "electron-packager": "^14.2.1"
+    "electron-packager": "^15.1.0"
   }
 }
